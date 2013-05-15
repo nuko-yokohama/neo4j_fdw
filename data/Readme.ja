@@ -1,0 +1,8 @@
+1. Copy data.xml in any directory. (e.g.:) /tmp)
+2. From the Gremlin console of the Neo4j management tool, I execute the following commands.
+
+gremlin> g.clear()
+==> 
+gremlin> g.loadGraphML('/tmp/data.xml')
+==> 
+gremlin> 

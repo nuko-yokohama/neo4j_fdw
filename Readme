@@ -1,0 +1,12 @@
+neo4j_fdw
+
+The view that neo4j_fdw assumes graph database neo4j a source of information
+contribute it via the interface of the foreign table wrapper of PostgreSQL.
+In addition, I hand URL and Cypher query with an argument and offer a function to receive a result in JSON.
+
+In CREATE SERVER, I set a connection URL to Neo4j.
+Set Cypher query offering in column and Neo4j which I want to return in CREATE FOREIGN TABLE.
+It is necessary to match the RETURN phrase of the Cypher query with the column which I want to return.
+
+How to use please refer to a test folder.
+(after loading data.xml in the data folder.)

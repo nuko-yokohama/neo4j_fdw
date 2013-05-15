@@ -1,0 +1,5 @@
+# neo4j_fdw extension
+comment = 'foreign-data wrapper for neo4j(cypher query result)'
+default_version = '1.0'
+module_pathname = '$libdir/neo4j_fdw'
+relocatable = true

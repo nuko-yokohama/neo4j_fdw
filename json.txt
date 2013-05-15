@@ -1,0 +1,2 @@
+{ "columns" : [ "name", "gender", "locatoin" ], "data" : [ [ "大和", "Male", "奈良県" ], [ "武蔵", "Male", null ], [ "長門", "Male", "山口県" ], [ "陸奥", "Male", null ], [ "伊勢", "Half", null ], [ "日向", "Half", null ], [ "赤城", "Famale", null ], [ "加賀", "Famale", null ], [ "信濃", "Famale", null ], [ "飛龍", "Famale", null ], [ "蒼龍", "Famale", null ] ] }
+

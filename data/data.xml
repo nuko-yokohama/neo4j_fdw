@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns 
+ http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="name" attr.type="string"/>
+  <key id="d1" for="node" attr.name="gender" attr.type="string"/>
+  <key id="d2" for="node" attr.name="location" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="d0">Yamato</data>
+      <data key="d1">Male</data>
+      <data key="d2">Tokyo</data>
+    </node>
+    <node id="n1">
+      <data key="d0">Musashi</data>
+      <data key="d1">Male</data>
+      <data key="d2">Yokohama</data>
+    </node>
+    <node id="n2">
+      <data key="d0">Akagi</data>
+      <data key="d1">Famale</data>
+      <data key="d2">Osaka</data>
+    </node>
+    <node id="n3">
+      <data key="d0">Kaga</data>
+      <data key="d1">Famale</data>
+      <data key="d2">Tokyo</data>
+    </node>
+    <node id="n4">
+      <data key="d0">Nagato</data>
+      <data key="d1">Male</data>
+      <data key="d2">Yokohama</data>
+    </node>
+    <node id="n5">
+      <data key="d0">Mutsu</data>
+      <data key="d1">Male</data>
+      <data key="d2">Yokohama</data>
+    </node>
+    <node id="n6">
+      <data key="d0">Hiryu</data>
+      <data key="d1">Famale</data>
+      <data key="d2">Yokohama</data>
+    </node>
+    <node id="n7">
+      <data key="d0">Soryu</data>
+      <data key="d1">Famale</data>
+      <data key="d2">Tokyo</data>
+    </node>
+    <edge id="e00" source="n0" target="n1"/>
+    <edge id="e01" source="n0" target="n2"/>
+    <edge id="e02" source="n0" target="n4"/>
+    <edge id="e03" source="n1" target="n3"/>
+    <edge id="e04" source="n2" target="n0"/>
+    <edge id="e05" source="n2" target="n6"/>
+    <edge id="e06" source="n4" target="n5"/>
+    <edge id="e07" source="n5" target="n4"/>
+    <edge id="e08" source="n6" target="n7"/>
+    <edge id="e09" source="n6" target="n2"/>
+    <edge id="e10" source="n6" target="n3"/>
+    <edge id="e11" source="n7" target="n6"/>
+  </graph>
+</graphml>

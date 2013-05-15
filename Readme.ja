@@ -1,0 +1,11 @@
+neo4j_fdw
+
+neo4j_fdwはグラフデータベース neo4j を情報源とするビューを
+PostgreSQLの外部テーブルラッパのインタフェース経由で提供します。
+また、URLとCypherクエリを引数で渡し、結果をJSONで受け取る関数を提供します。
+
+CREATE SERVERで、Neo4jへの接続URLを設定します。
+CREATE FOREIGN TABLEで、返却したいカラムとNeo4jで提供しているCypherクエリを設定します。
+CypherクエリのRETURN句は返却したいカラムに合わせる必要があります。
+
+使い方はtestフォルダ内を参考にしてください。
