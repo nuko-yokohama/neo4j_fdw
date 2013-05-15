@@ -8,5 +8,10 @@ In CREATE SERVER, I set a connection URL to Neo4j.
 Set Cypher query offering in column and Neo4j which I want to return in CREATE FOREIGN TABLE.
 It is necessary to match the RETURN phrase of the Cypher query with the column which I want to return.
 
+This module needs the following libraries.
+Please install it beforehand.
+* libcurl http://curl.haxx.se/libcurl/
+* json-c  http://oss.metaparadigm.com/json-c/
+
 How to use please refer to a test folder.
 (after loading data.xml in the data folder.)

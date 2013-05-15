@@ -8,4 +8,8 @@ CREATE SERVERで、Neo4jへの接続URLを設定します。
 CREATE FOREIGN TABLEで、返却したいカラムとNeo4jで提供しているCypherクエリを設定します。
 CypherクエリのRETURN句は返却したいカラムに合わせる必要があります。
 
+このモジュールは以下のライブラリを必要とします。事前にインストールしてください。
+* libcurl http://curl.haxx.se/libcurl/
+* json-c  http://oss.metaparadigm.com/json-c/
+
 使い方はtestフォルダ内を参考にしてください。
