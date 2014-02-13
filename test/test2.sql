@@ -3,7 +3,7 @@ CREATE FOREIGN TABLE bar1 (
     gender text,
     location text)
     SERVER foo
-    OPTIONS (query '{"query":"START n=node(*) RETURN n.name as name, n.gender? as gender, n.location? as locatoin " }');
+    OPTIONS (query '{"query":"START n=node(*) RETURN n.name as name, n.gender? as gender, n.location? as location " }');
 
 \pset null (null)
 SELECT name, gender, location FROM bar1;
